@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name        = "OpenGraph"
   s.version     = "1.3.2"
   s.summary     = "A Swift wrapper for the Open Graph protocol."
-  s.homepage    = "https://github.com/satoshi-takano/OpenGraph"
+  s.homepage    = "https://github.com/ragbadaskar/OpenGraph"
   s.license     = {
     :type => "MIT",
     :text => <<-LICENSE
@@ -20,7 +20,7 @@ DESC
 
   s.swift_versions            = ['5.0']
   s.ios.deployment_target     = "8.0"
-  s.source                    = { :git => "https://github.com/satoshi-takano/OpenGraph.git", :tag => s.version.to_s }
+  s.source                    = { :git => "https://github.com/ragbadaskar/OpenGraph.git", :tag => s.version.to_s }
   s.source_files              = "Sources/OpenGraph/*.{swift,h,m}"
   s.osx.deployment_target     = "10.9"
   s.ios.deployment_target     = "8.0"
